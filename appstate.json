@@ -1,0 +1,14 @@
+{
+  "owner": {
+    "name": "MARINA KHAN",
+    "email": "lagepof270@lxheir.com",
+    "password": "pathan123",
+    "role": "admin"
+  },
+  "chatbot": {
+    "name": "Marina's GPT",
+    "welcomeMessage": "Welcome MARINA KHAN! 👑 Your personal AI assistant is ready.",
+    "themeColor": "#0084ff",
+    "secretKey": "marina_khan_pathan_secure_key_2023"
+  }
+}
