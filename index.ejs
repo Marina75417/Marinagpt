@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= chatbotName %> - <%= ownerName %></title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div id="login-modal">
+    <div class="login-box">
+      <h2><%= ownerName %>'s Secure Login</h2>
+      <input type="email" id="login-email" placeholder="Your Email">
+      <input type="password" id="login-password" placeholder="Your Password">
+      <button id="login-btn">Access Your GPT</button>
+    </div>
+  </div>
+
+  <div id="chatbot-container">
+    <div id="chatbot-header">
+      <h3><%= chatbotName %></h3>
+      <span>Owner: <%= ownerName %></span>
+    </div>
+    <div id="chat-area"></div>
+    <div id="input-area">
+      <input type="text" id="user-input" disabled placeholder="Authenticate first...">
+      <button id="send-btn" disabled>
+        <svg width="24" height="24" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M2,21L23,12L2,3V10L17,12L2,14V21Z"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <script src="/js/script.js"></script>
+</body>
+</html>
